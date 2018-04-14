@@ -1,0 +1,15 @@
+void selectSort(int a[],int n)
+{
+   for(int i=0;i<n;i++)
+   {
+      int Min=i;
+      for(int j=i;j<n;j++)
+      {
+         if(a[j]<a[Min])
+            Min=j;
+      }
+      int temp=a[i];
+      a[i]=a[Min];
+      a[Min]=a[i];
+   }
+}
