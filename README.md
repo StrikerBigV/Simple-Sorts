@@ -1,2 +1,2 @@
  # Simple-Sorts
-Some simple sorts in C/C++
+Some simple way to sort in C/C++
